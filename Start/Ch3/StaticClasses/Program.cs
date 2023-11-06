@@ -9,7 +9,7 @@ double result = Converter.InToCm(5.0);
 Console.WriteLine($"{result}");
 
 result = Converter.CmToIn(5.0);
-Console.WriteLine($"{result}");
+Console.WriteLine($"{result:F2}");
 
 // static classes cannot be instantiated
-// Converter conv = new Converter(); // this will cause a compiler error
+// Converter conv = new Converter(); // this will cause a compiler error 
